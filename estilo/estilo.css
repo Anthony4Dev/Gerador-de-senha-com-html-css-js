@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gerador-de-senha{
+    width: 70%;
+    background: black;
+    color: white;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.tamanho-lenght{
+    font-weight: 600;
+    margin: 0 0 .3em 0;
+}
+.contador{
+    width: 100%;
+    background: white;
+    height: 1em;
+    margin: auto;
+    border-radius: 4px;
+    position: relative;
+}
+.bolinha{
+    position: absolute;
+    left: .035em;
+    bottom: .03em;
+    height: 90%;
+    width: 3.5%;
+    border-radius: 50%;
+    background: rgb(1, 116, 248);
+    
+    
+}
+.button{
+    background: rgb(9, 241, 9);
+    padding: 1.5% 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(35, 168, 35)
+}
+.senha-gerada{
+    display: grid;
+    justify-content: center;
+}
+.senha-gerada h2{
+    margin: 1em 0 .3em 0;
+    text-align: center;
+}
+.senha-gerada textarea{
+    padding: .2em 7em;
+    background: black;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
